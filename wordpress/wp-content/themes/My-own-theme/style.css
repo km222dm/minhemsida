@@ -1,0 +1,390 @@
+@charset "UTF-8";
+/*
+Theme Name: Kristinas tema
+Description: Detta är ett tema skapat för min labblogg i kursen Web Management.
+Författare: Kristina M
+Version: 1.0
+etc tags:
+license: 
+license URI:
+General Commnets:
+*/
+
+html, body {
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+#topbar {
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 55px;
+    background-color: #00a087;
+    box-shadow: 0 0 2px 0;
+
+}
+
+#loggo {
+
+    color: white;
+    margin-top: 5px;
+    padding-left: 2%;
+    font-family: 'Shadows Into Light';
+    font-size:27px;
+}
+
+#headerbild {
+    min-width:100%;
+    min-height:400px;
+    margin: 55px 0 0 0;
+}
+
+.fn {
+    
+    font-family: helvetica;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+.says {
+    
+    font-family: helvetica;
+    font-style: normal;
+}
+
+p {
+    
+    margin-left: 10px;
+}
+
+.ul-style {
+
+    /*list-style-type: none;
+    padding: 0;*/
+    position:absolute;
+    top:40%;
+    right:4%;
+    height:60%;
+    width: 35%;
+}
+
+a {
+    text-decoration:none;
+}
+
+.menuColor a {
+    color:#ffffff;
+    margin-left: 40px;
+    font-family: helvetica;
+    font-size: 50% !important;
+    font-weight: lighter;
+}
+
+li {
+    display: inline;
+   
+}
+
+a:visited {
+    text-decoration:none;
+}
+
+.categories1 {
+ 
+   /* width: 120px;
+    color: white;
+    padding: 0.2em 0.3em;
+    font-family: Verdana, sans-serif;*/
+    transition: 0.3s ease;
+  background: #00a087;
+  color: #ffffff;
+  font-size: 17px;
+  text-decoration: none;
+border-top: 4px solid #00A087;
+  border-bottom: 4px solid #00A087;
+  padding: 16px 0 0 0;
+  margin: 0 25px;
+}
+
+.categories1:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}
+
+#searchform {
+    
+    float: left;
+    /*margin-right: 40px;*/
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+#searchbar {
+    
+    float:left;
+    height: 30px;
+    width: 160px;
+    background: #CFD1D0;
+    border: none;
+}
+
+#searchsubmit {
+    
+    margin: 3px;
+    color: #00A087;
+    height: 26px;
+}
+
+#content {
+    
+    background: white;
+    min-height: 100%;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.read-more {
+    
+    color: #00A087; 
+}
+
+#blog-post {
+    
+    background: white;
+    min-height: 100%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#post-contents {
+    
+    font-family: open-sans, sans-serif;
+    font-size: 1em;
+    line-height: 1.466rem;
+    color: #333;
+    margin-top: 30px;
+}
+
+#post-title {
+    
+    font-family: didotRegular;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+#post-date {
+    
+    font-family: bebasThin, sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+}
+
+#post-author {
+    
+    font-family: bebasThin, sans-serif;
+    font-size: 0.7em;
+    text-align: left;
+    color: grey;
+    width: 300px;
+
+}
+
+#numberOfComments {
+    
+    font-family: bebasThin, sans-serif;
+    font-size: 0.9em;
+    text-align: left;
+    color: #E57C62;
+    width: 300px;
+    margin-top: -16px;
+    margin-right: -200px;
+    float: right;
+    
+}
+
+#numberOfCommentsSingle {
+    
+    font-family: helvetica;
+    font-size: 1em;
+    text-align: left;
+    color: #E57C62;
+    float: left;
+    margin-left: 10px;
+}
+
+#comments {
+    
+    border-bottom: 1px solid #BFA78F;
+    margin:1em 1.2em
+}
+
+.comment-body {
+    
+    background-color: #E9E9E9;
+    margin-left: -9px;
+    margin-top: 15px;
+}
+
+.comment-meta {
+    
+    margin-left: 35px;
+}
+
+.comment-reply-title {
+    
+     font-family: helvetica;
+     margin-left: -9px;
+     background-color:#DBDBDB;
+     padding: 20px;
+}
+
+.comment-notes {
+    
+    font-family: helvetica;
+}
+
+.comment-form {
+    
+    background-color: #E9E9E9;
+    margin-left: -9px;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.comment-form-author {
+    
+    font-family: helvetica;
+    font-size: 0.9em;
+}
+
+.comment-form-email {
+    
+    height: 25px;
+    font-family: helvetica;
+    font-size: 0.9em;
+   
+}
+
+.comment-form-url {
+    
+    font-family: helvetica;
+    font-size: 0.9em;
+    height: 25px;
+   
+}
+
+#url {
+    
+    height: 25px;
+}
+
+#author {
+    
+    margin-left: 3px;
+    height: 25px;
+}
+
+#email {
+    
+    margin-left: 5px;
+    height: 25px;
+
+}
+
+#totalAmountOfPages {
+    
+    margin-left: 700px;
+    font-family: helvetica;
+    font-size: 1em;
+    color: #333;
+}
+
+footer  {
+    
+    background-color: #CFD7D0;
+    height: 50px;
+    min-width: 100%;
+    margin-bottom:0px;
+}
+
+#footertext {
+    padding-top: 3px;
+    margin-top: 40px;
+    margin-bottom: -5px;
+    text-align: center;
+    font-family: helvetica;
+    color: #E57C62;
+    /*text-shadow: 2px;*/
+    font-size: 17px;
+}
+
+#stickyPost {
+    
+    margin: auto;
+    background-color: #898989;
+    height: 1px;
+    width: 700px;
+    margin-top: 40px;
+}
+
+@font-face {
+    
+    font-family: didotRegular;
+    src: url(labb3bloggg/wp-contet/My-own-theme/fonts/TheanoDidot-Regular.ttf);
+}
+
+@font-face {
+    
+    font-family: bebasThin;
+    src: url(labb3bloggg/wp-contet/My-own-theme/fonts/BebasNeue-Thin.otf);
+}
+
+@font-face {
+    
+    font-family: open-sans;
+    src: url(labb3bloggg/wp-contet/My-own-theme/fonts/OpenSans-Light.ttf);
+    
+}
+
+/*#sidebar {
+    
+    float:left;
+    margin-left:14%;
+    
+}
+
+
+#sidebar ul {
+    
+    background-color:blue;
+    width:100px;
+    height:200px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar ul a {
+    background-color: red;
+    display: block;
+    width: 100px;
+    height:20px;
+    text-align: center;
+}*/
